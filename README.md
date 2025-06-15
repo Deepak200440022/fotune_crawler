@@ -110,5 +110,3 @@ The spider stores quotes in a collection named after the spider (`quote`).
 
 ---
 
-```
-```
