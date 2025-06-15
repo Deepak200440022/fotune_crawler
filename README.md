@@ -69,7 +69,7 @@ scrapy crawl quote
 Run this script to see a random quote:
 
 ```bash
-python fetch_random.py
+python fortuneJr.py 
 ```
 
 If the database is empty, the script will prompt you to run the crawler.
@@ -92,7 +92,12 @@ The spider stores quotes in a collection named after the spider (`quote`).
 ## 📝 Example Output
 
 ```bash
-{'quote': '“For every minute you are angry you lose sixty seconds of happiness.”', 'author': 'Ralph Waldo Emerson', 'author_url': '/author/Ralph-Waldo-Emerson'}
+{
+  "_id": "70bfc7c998276705ce55e83ed00fe53725f15379c75e55c7d909e3bd1f82120c",
+  "author": "Ralph Waldo Emerson",
+  "author_url": "/author/Ralph-Waldo-Emerson",
+  "quote": "“For every minute you are angry you lose sixty seconds of happiness.”"
+}
 ```
 
 ---
